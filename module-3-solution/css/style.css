@@ -1,0 +1,99 @@
+*
+{
+	box-sizing: border-box;
+}
+.row
+{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.navbar-brand>a,.navbar-brand>a:hover
+{
+	font-family: serif;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#navbar_id
+{
+	background-color: #006400;
+}
+
+#div_html,#div_css,#div_js
+{
+	max-width: 80%;
+	margin: 20px auto;
+	justify-content: center;
+}
+#h_menu
+{
+	max-width: 80%;
+	margin: 10px auto;
+	text-align: center;
+}
+.row.container
+{
+	display: flex;
+}
+.navbar-toggler
+{
+	position: absolute;
+	top: 8px;
+	right: 30px;
+
+}
+.navbar-toggler:hover
+{
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.3);
+}
+.col-xs-12
+{
+	float:none;
+}
+.item
+{
+	border-color: 1px solid black;
+	color: white;
+}
+#div_html
+{
+	padding: 0px 0px 0px 0px;
+	background-color: #8FD8D8;
+}
+#div_html>h3
+{
+	color: white;
+	background-color: #FFAA1D;
+}
+#div_html>p
+{
+	padding: 10px
+}
+#div_css
+{
+	padding: 0px 0px 0px 0px;
+	background-color: #BEE64B;
+}
+#div_css>h3
+{
+	color:white;
+	background-color: #9370DB;
+}
+#div_css>p
+{
+	padding: 10px;
+}
+#div_js
+{
+	padding: 0px 0px 0px 0px;
+	background-color: #FFD700;
+}
+#div_js>h3
+{
+	color: white;
+	background-color: #DA3287;
+}
+#div_js>p
+{
+	padding: 10px;
+}
